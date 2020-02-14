@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <br><br><br>
+    <h2  align=center>Breaktime</h2>
+    <div id="body">
+        <h3  align=center><u>Activity Suggestion</u></h3>
+        <h3  align=center>take a walk</h3>
+        {{#each suggestions}}
+        		{{suggestion}}
+        {{/each}}
+    <br>
+<h1 align=center>Did you complete your goal for this work session?</h1>
+<div align=center> <input type="text" id="goal2" name="goal2">
+
+	<h1 align=center>How do you feel about the work you completed?</h1>
+	<div align=center> <input type="text" id="goal2" name="goal2">
+
+		<h1 align=center>Would you like to keep working?</h1>
+		<a id="yes" href=page2>Yes!</a>
+		<a id="no" href=finish>No</a>
+	</div>
+</body>
+</html>
